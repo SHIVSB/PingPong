@@ -1,0 +1,39 @@
+#container {
+    position: relative;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/photos/table-tennis-equipment-picture-id1192307192?b=1&k=20&m=1192307192&s=170667a&w=0&h=zPZsq3-ehwsxh2waz0c31cggWRYiBmChmVeJXefYDM4=');
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: blue;
+    top: 0px;
+}
+
+#rod2 {
+    background-color: green;
+    bottom: 0px;
+}
